@@ -1,0 +1,70 @@
+.container {
+  width: 2000px;
+  margin: auto;
+  background-color: aqua;
+  position: relative;
+}
+
+.row {
+  display: flex;
+}
+
+nav {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+.title {
+  text-decoration: none;
+  font-size: 23px;
+  color: white;
+  float: right;
+}
+
+.logo-left {
+  width: 10%;
+}
+
+.logo-right {
+  width: 10%;
+}
+
+.header {
+  background-color: black;
+}
+
+.katarina {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.build-now {
+  margin-bottom: 30px;
+}
+
+.build-now,
+.my-team {
+  width: 240px;
+  height: 50px;
+  margin: auto;
+  padding: 20px 2px;
+  background: rgb(59, 59, 59);
+  border: solid 1px orange;
+  color: orange;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  position: relative;
+  justify-content: center;
+}
