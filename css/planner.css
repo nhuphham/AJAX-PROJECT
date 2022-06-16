@@ -1,19 +1,14 @@
 .container {
-  width: 1900px;
-  background-color: rgb(190, 190, 190);
+  width: 100%;
 }
 
 body {
-  background-image: url("https://64.media.tumblr.com/b6df9208fa41900159ef28816f4fcb99/tumblr_pufxuemKyM1ufm3tmo1_1280.jpg");
+  background-image: url("https://wallpapercave.com/wp/wp3187310.jpg");
   background-size: cover;
   background-repeat: repeat;
-  background-position: 0% -55%;
-  margin: 0;
   background-attachment: fixed;
-}
-
-.row {
-  display: flex;
+  background-position: 110% -100%;
+  margin: 0;
 }
 
 .left-column-logo {
@@ -39,6 +34,7 @@ body {
 .logo-left,
 .logo-right {
   margin: 10px 25px 10px 15px;
+  border: none;
 }
 
 .header {
@@ -51,21 +47,48 @@ body {
   height: 80px;
   width: 100%;
   margin-bottom: 110px;
+  position: fixed;
+}
+
+.champholder {
+  margin-top: 90px;
+  margin-left: 50px;
+  width: 100%;
+}
+
+.champholder > img {
+  margin: 2px 3px 4px 4px;
+  border: 1px solid white;
+  width: 25%;
+}
+
+.place-holder {
+  border: none;
+  width: 28%;
+}
+
+.placeholders {
+  margin-top: 85px;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.row {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
 }
 
 .buttons {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
+  margin-top: -30px;
 }
 
-.build-now,
-.my-team {
+.clear-all,
+.save-button {
   margin-top: 20px;
-  height: 25px;
+  margin-bottom: 10px;
+  height: 48px;
   padding: 10px;
   background: rgb(43, 43, 43);
   border: solid 1px orange;
@@ -76,24 +99,46 @@ body {
   font-family: Avenir, Arial, Helvetica, sans-serif;
   font-weight: bold;
   cursor: pointer;
+  align-items: center;
 }
 
-.build-now {
-  width: 320px;
+.clear-all {
+  width: 220px;
+  margin-left: 156px;
 }
 
-.build-now:hover {
+.clear-all:hover {
   background: rgb(195, 195, 195);
   border: solid 1px orange;
   color: rgb(0, 0, 0);
 }
 
-.my-team {
+.save-button {
   width: 200px;
+  margin-left: 30px;
 }
 
-.my-team:hover {
+.save-button:hover {
   background: rgb(168, 168, 168);
   border: solid 1px orange;
   color: rgb(0, 0, 0);
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(183, 119, 0);
+  width: 20%;
+  background: #2c2c2c;
+  position: fixed;
+  float: right;
+  margin-left: 300px;
+  margin-top: 10px;
+  color: white;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
 }
