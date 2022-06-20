@@ -26,6 +26,7 @@ body {
   font-size: 43px;
   color: white;
   font-family: "Passion one", Arial, Helvetica, sans-serif;
+  white-space: nowrap;
 }
 
 .logo-left {
@@ -60,6 +61,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: transparent;
+  position: relative;
 }
 
 .build-now,

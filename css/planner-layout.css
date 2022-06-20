@@ -1,0 +1,77 @@
+@media screen and (max-width: 520px) {
+  .champholder {
+    margin-top: 140px;
+    width: 655%;
+    height: 650px;
+    margin-left: 30px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #000;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(174, 110, 0);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .placeholders {
+    position: absolute;
+    display: none;
+  }
+
+  .place-holder {
+    width: 38%;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .row {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  body {
+    background-image: url("https://i.pinimg.com/originals/6c/18/cf/6c18cfea1f788b7ffa8b56f6b5cfba97.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: 185% 5%;
+    margin: 0;
+    background-attachment: fixed;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 50px;
+    margin-bottom: 2px;
+    width: 110%;
+  }
+
+  .last {
+    margin-left: 130px;
+  }
+
+  form.example input[type="text"] {
+    padding: 8px;
+    font-size: 17px;
+    border: 1px solid rgb(183, 119, 0);
+    width: 81%;
+    background: #2c2c2c;
+    margin-left: 35px;
+    margin-top: 85px;
+    color: white;
+    z-index: 2;
+  }
+}

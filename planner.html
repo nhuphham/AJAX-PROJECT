@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/planner.css">
+  <link rel="stylesheet" href="css/planner-layout.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,12 +24,13 @@
     </div>
     <img class="logo-right" src="images/Teamfight_Tactics_logo.png">
   </div>
-  <div class="container">
+  <div class="container-full">
     <div class="row">
       <form class="example" action="action_page.php">
         <input type="text" placeholder="Search Champions ..." name="search">
       </form>
-      <div id="ichamps" class="champholder">
+
+      <div class="champholder">
         <img class="akali" src="images/champions/Screen Shot 2022-06-15 at 3.19.48 PM.png">
         <img class="ahri" src="images/champions/Screen Shot 2022-06-15 at 3.24.11 PM.png">
         <img class="akali" src="images/champions/Screen Shot 2022-06-15 at 2.53.01 PM.png">
@@ -53,15 +55,16 @@
         <div class="placeholders">
           <img class="place-holder" src="images/greybox.png"> <img class="place-holder" src="images/greybox.png"> <img class="place-holder" src="images/greybox.png">
           <img class="place-holder" src="images/greybox.png"> <img class="place-holder" src="images/greybox.png"> <img class="place-holder" src="images/greybox.png">
-          <img class="place-holder" src="images/greybox.png"> <img class="place-holder" src="images/greybox.png"> <img class="place-holder" src="images/greybox.png">
-          <div class="buttons">
-            <button class="clear-all"> CLEAR ALL </button>
-            <button class="save-button"> SAVE </button>
-          </div>
-        </div>
-      </div>
+          <img class="place-holder" src="images/greybox.png"> <img class="place-holder" src="images/greybox.png"> <img class="place-holder last" src="images/greybox.png">
+         <div class="buttons">
+          <button class="clear-all"> CLEAR ALL </button>
+          <button class="save-button"> SAVE </button>
+        </div> </div>
+
+    </div>
     </div>
   </div>
+
   <script src="main.js"> </script>
 </body>
 

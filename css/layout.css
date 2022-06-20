@@ -1,0 +1,30 @@
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url("https://cdn-images.win.gg/wp/uploads/2021/08/tft-set-5-adding-new-game-modes-unique-mechanics-for-teemo.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: 927% 5%;
+    margin: 0;
+    background-attachment: fixed;
+  }
+
+  .build-now,
+  .my-team {
+    background-color: black;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .title {
+    margin-right: 30px;
+  }
+
+  .logo-right {
+    bottom: 0;
+    position: absolute;
+    width: 50%;
+  }
+}
